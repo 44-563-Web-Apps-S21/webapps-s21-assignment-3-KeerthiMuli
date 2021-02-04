@@ -40,8 +40,10 @@
     <a href="Aboutme.html">Click here to view about my SuperHero</a>
     <hr>
     <h1>Best Places to be visited under budget</h1>
-    <p>Want to take a cheap vacation in 2021? Help is here. Although travel costs are on the rise this year—with experts predicting that airfares 
-      will increase by 1.5% and hotels rates will go up by 2 to 4%—it’s still possible to take an affordable trip in 2021.</p>
+    <p> Want to take a cheap vacation in 2021? Help is here. Although travel costs are on the rise this year—with experts predicting that airfares 
+        will increase by 1.5% and hotels rates will go up by 2 to 4%—it’s still possible to take an affordable trip in 2021.
+    </p>
+
     <table>
     <tr>
         <th>Location</th>
@@ -77,5 +79,32 @@ subset of the C language with some elements of the C++ language. Its main differ
 implementation of multimedia and computer game related objects like sounds, images, movies, GUI elements, 
 2D and 3D models, collision detection and rigid body physics.
 </blockquote>
+<a href="https://en.wikipedia.org/wiki/Lite-C">For more information on Lite-C</a>
+<pre>
+  ouble m_x = 0.344142,
+  m_y = 0.075094,
+  m_width = 0.017813;
+
+long JetColor(double v)
+{
+   double d = 25.0;
+   v = v/d + 0.5;
+   int i = (int)v;
+   int f = (int)(255*(v-i));
+   int r=0, g=0, b=0;
+
+   switch(i) {
+     case 0: r=0; g=0; b=f; break;
+     case 1: r=0; g=f; b=255; break;
+     case 2: r=f; g=255; b=255-f; break;
+     case 3: r=255; g=255-f; b=0; break;
+     case 4: r=255-f; g=0; b=0; break;
+   }
+   return r|(g<<8)|(b<<16);
+}
+</pre>
+
+<a href="http://www.conitec.net/beta/cscript_intro.htm"> Lite-C code snippets /a>
+
     </body>
     </html>
